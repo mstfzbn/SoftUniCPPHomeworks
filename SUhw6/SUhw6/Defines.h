@@ -1,0 +1,35 @@
+#pragma once
+//header, which contains all program constants
+#define DEBUG
+#define COLLECTORS_PASSWORD 12344321
+
+
+enum vote {
+	NEGATIVE,
+	POSITIVE,
+	COUNT_OF_VOTE_VARIANTS
+};
+
+enum gender {
+	WOMAN,
+	MAN,
+	UNDEFINED,
+	COUNT_OF_GENDER_VARIANTS
+};
+
+enum program_states
+{
+	START_POINT,
+	VOTER_TERMINAL,
+	COLLECTORS_TERMINAL,
+	SHOW_GLOBAL_RESULTS,
+	ALL_POSSIBLE_FOR_AGE_LIVING_PLACE_ETHNOS,
+	GIVE_SPECIFIC_RESULT,
+	FOR_AGE,
+	FOR_NAME,
+	FOR_ETHNOS,
+	FOR_GENDER,
+	FOR_LIVING_PLACE,
+	EXIT
+};
+
