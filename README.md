@@ -7,3 +7,4 @@ Repository milestones:
 -SOLID principes
 -Memory managment and optimization
 -Multithreading
+-Lambda Expressions
